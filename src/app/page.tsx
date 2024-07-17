@@ -12,7 +12,7 @@ interface Article {
 }
 
 export default function Home() {
-  const [inputValue, setInputValue] = useState('https://www.clarin.com/opinion/acuerdo-costa-pobre_0_G6sIkibk1D.html');
+  const [inputValue, setInputValue] = useState('');
   const [data, setData] = useState<Article | null>(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
