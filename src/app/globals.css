@@ -75,12 +75,53 @@
   font-size: 1.25rem;
 }
 
+.article p iframe {
+  margin: 0 auto;
+}
+
+.article ul {
+  margin: 0 auto;
+  max-width: 70ch;
+  padding: 8px 0;
+  font-size: 1.25rem;
+  list-style: disc;
+}
+
+.article ol {
+  margin: 0 auto;
+  max-width: 70ch;
+  padding: 8px 0;
+  font-size: 1.25rem;
+  list-style: decimal;
+}
+
 .article h1 {
   font-size: 2.5rem;
   text-align: center;
+  padding: 8px;
 }
 
 .article h2 {
   font-size: 1.25rem;
   text-align: center;
+  padding: 8px 0;
+  text-decoration: underline;
+}
+
+.article img,
+.article picture {
+  display: block;
+  margin: 0 auto;
+}
+
+.article picture span {
+  display: block;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.article figure figcaption {
+  display: block;
+  text-align: center;
+  font-size: 0.8rem;
 }

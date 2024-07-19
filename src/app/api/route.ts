@@ -5,6 +5,7 @@ export async function POST(request: Request) {
   try {
     const body = await request.json();
     const article = await extract(body.url);
+    console.log(article);
 
     return NextResponse.json({
       article: article,

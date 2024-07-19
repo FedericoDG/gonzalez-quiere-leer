@@ -92,7 +92,7 @@ export default function Home() {
       </div>
 
 
-      <footer className="rounded-lg shadow dark:bg-gray-900 p-2">
+      <footer className="">
         <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <a href="mailto:federicodg80@gmail.com" className="hover:underline">Federico González</a></span>
       </footer>
 
