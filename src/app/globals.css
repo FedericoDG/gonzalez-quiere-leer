@@ -69,10 +69,20 @@
 }
 
 .article p {
+  @media (300px < width < 720px) {
+    padding: 8px;
+  }
+}
+
+.article p {
   margin: 0 auto;
   max-width: 70ch;
   padding: 8px 0;
   font-size: 1.25rem;
+  @media (300px < width < 720px) {
+    font-size: 1rem;
+    max-width: auto;
+  }
 }
 
 .article p iframe {
@@ -85,6 +95,9 @@
   padding: 8px 0;
   font-size: 1.25rem;
   list-style: disc;
+  @media (300px < width < 720px) {
+    font-size: 1rem;
+  }
 }
 
 .article ol {
@@ -93,12 +106,18 @@
   padding: 8px 0;
   font-size: 1.25rem;
   list-style: decimal;
+  @media (300px < width < 720px) {
+    font-size: 1rem;
+  }
 }
 
 .article h1 {
   font-size: 2.5rem;
   text-align: center;
   padding: 8px;
+  @media (300px < width < 720px) {
+    font-size: 1rem;
+  }
 }
 
 .article h2 {
@@ -106,6 +125,9 @@
   text-align: center;
   padding: 8px 0;
   text-decoration: underline;
+  @media (300px < width < 720px) {
+    font-size: 1rem;
+  }
 }
 
 .article img,
